@@ -10,7 +10,7 @@ def reverse_each_word(sentence)
   experiment = (sentence.split().collect{|word| word.reverse}).join(" ")
   #pp experiment
 
-  return  new_sent
+  return  experiment
 end
 
 
