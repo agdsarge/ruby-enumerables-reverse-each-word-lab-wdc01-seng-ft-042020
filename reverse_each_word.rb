@@ -5,10 +5,11 @@ def reverse_each_word(sentence)
   
   split_sent = sentence.split()
   back_ar = split_sent.collect {|word| word.reverse}
-
   new_sent = back_ar.join(" ")
 
-  p new_sent
+  experiment = (sentence.split().collect{|word| word.reverse}).join(" ")
+  pp experiment
+
   return  new_sent
 end
 
