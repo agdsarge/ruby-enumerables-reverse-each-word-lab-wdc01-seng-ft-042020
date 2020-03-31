@@ -3,12 +3,12 @@ require "pp"
 
 def reverse_each_word(sentence)
   
-  split_sent = sentence.split()
-  back_ar = split_sent.collect {|word| word.reverse}
-  new_sent = back_ar.join(" ")
+  #split_sent = sentence.split()
+  #back_ar = split_sent.collect {|word| word.reverse}
+  #new_sent = back_ar.join(" ")
 
   experiment = (sentence.split().collect{|word| word.reverse}).join(" ")
-  pp experiment
+  #pp experiment
 
   return  new_sent
 end
